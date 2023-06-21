@@ -28,5 +28,8 @@ int main() {
 
 	//membuka file dalam node membaca
 	ifstream infile;
-    
+    //menunjukkan ke sebuah file
+	infile.open("contohfile.txt");
+
+	cout << endl << ">= membuka dan membaca file " << endl;
 }
