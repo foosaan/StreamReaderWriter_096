@@ -3,4 +3,9 @@
 #include <string>
 using namespace std;
 
-int main() {}
+int main() {
+	string baris;
+
+	//membuka file dalam node menulis.
+	ofstream outfile;
+}
