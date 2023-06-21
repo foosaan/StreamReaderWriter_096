@@ -8,4 +8,10 @@ int main() {
 
 	//membuka file dalam node menulis.
 	ofstream outfile;
+	//menunjukkan ke sebuah nama file
+	outfile.open("contoh file.txt");
+
+	cout << ">= Menulis file, \'p\' untuk keluar" << endl;
+
+
 }
